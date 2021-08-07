@@ -25,7 +25,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contacto">CONTACTO</a>
-                </li>
+                </li> 
             </ul>
         </div>
     </div>
@@ -35,14 +35,17 @@
 <div class="container">
     <div class="row">
         <!-- sidebar -->
-        <div class="col-md-3" style="background-color: green">
+        <div class="col-md-3" style="background-color:#20c997">
             <br><br>
             <ul class="list-group" class="badge bg-secondary" >
-                <li class="btn btn-danger" aria-current="true">barcelona woman </li>
-                <li class="btn btn-secondary">paris</li>
-                <li class="btn btn-success" >san andres</li>
-                <li class="btn btn-danger">brasilia</li>
-                <li class="btn btn-light"">rodeo</li>
+            <li class="nav-item">
+                 
+                </li> 
+                <li class="btn btn-light"aria-current="true">barcelona woman </li>
+                <li  class="btn btn-light">paris</li>
+                <li  class="btn btn-light" >san andres</li>
+                <li  class="btn btn-light">brasilia</li>
+                <li class="btn btn-light">rodeo</li>
             </ul>
             <br><br>
         </div>
@@ -54,6 +57,23 @@
         <!-- end Content-->
     </div>
 </div>
+<div class="progress">
+</div>
+<div class="progress">
+  <div  role="progressbar" class="btn btn-dangers"  style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="progress">
+  <div class="progress-bar" class="btn btn-danger" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="progress">
+  <div role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="progress">
+  <div  class="btn btn-warning" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+
+<br>
+<a href="juego">     .......JUEGO GRATIS </a><br><br>
 <footer style="background-color": class="btn btn-info" >
 El 21 de junio de 1957 nació el Servicio Nacional de Aprendizaje (SENA) bajo el Decreto Ley 118 de ese año; fue una iniciativa del economista cartagenero Rodolfo Martínez Tono (q.e.p.d.), quien le propuso la idea de crear una entidad de enseñanza laboral y técnica al entonces ministro del trabajo, Raimundo Emiliani Román.
 
@@ -63,21 +83,7 @@ En 1960, en solo tres años de fundación, la Institución ya contaba con 30 cen
 
 Al cumplir 15 años (1971), el SENA alcanzó un prestigio internacional sin precedentes, ya que distintos países llegaron a Colombia para conocer la experiencia de sus procesos de formación y apoyo al emprendimiento. Se destacó la visita de Charles de Gaulle, presidente de Francia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias cum dolore explicabo incidunt laborum laudantium nihil qui sapiente. Asperiores excepturi id magni veniam? Consequatur corporis exercitationem fugiat provident sit!
 </footer>
-<div class="progress">
-  <div  class="btn btn-warning" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-</div>
-<div class="progress">
-  <div  role="progressbar" class="btn btn-warning"  style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-</div>
-<div class="progress">
-  <div class="progress-bar" class="btn btn-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-</div>
-<div class="progress">
-  <div role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-</div>
-<div class="progress">
-  <div  class="btn btn-warning" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-</div>
+
 
 <div class="accordion" id="accordionExample">
   <div class="accordion-item">
@@ -104,18 +110,6 @@ Al cumplir 15 años (1971), el SENA alcanzó un prestigio internacional sin prec
       </div>
     </div>
   </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-     pais turistico
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-</div>
+  
 </body>
 </html>

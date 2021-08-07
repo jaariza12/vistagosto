@@ -29,3 +29,7 @@ Route::get('contacto', function () {
 Route::get('quienes-somos', function () {
     return view('quienes-somos');
 });
+
+Route::get('juego', function () {
+    return view('juego');
+});

@@ -9,10 +9,20 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Document</title>
    </head>
-   <body>
+   <body >
       <h1>registrate</h1>
       <form>
-  <div class="mb-3">
+  <div class="mb-3" >
+  
+<div class="progress">
+  <div  role="progressbar" class="btn btn-warning"  style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="progress">
+  <div class="progress-bar" class="btn btn-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+
+
+</div>>
     <label for="exampleInputEmail1" class="btn btn-warning" class="form-label">correo</label>
     <input type="email"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     <div id="emailHelp" class="form-text">trabaja con alex ariza desde casa.</div>

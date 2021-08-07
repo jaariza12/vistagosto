@@ -1,6 +1,6 @@
 @extends('layouts.plantilla')
 @section('contenido')
-    <h1>Hola desde acerca de</h1>
+    
 
     <!DOCTYPE html>
     <html lang="en">
@@ -11,14 +11,17 @@
         <title>Document</title>
     </head>
     <body>
-    <div class="grid">
-        <h1>sedes</h1>
-  <div class="g-col-6">.colombia</div>
-  <div class="g-col-6">.peru</div>
-
-  <div class="g-col-6">.mexico</div>
-  <div class="g-col-6">.brasil</div>
-</div>
+    <a class="btn btn-primary" href="#" role="button">ciudades desde donde trabajamos </a>
+    <br><br><br><button type="button" class="btn btn-outline-primary"> cali - desarrollo</button>
+<button type="button" class="btn btn-outline-secondary">medellin - pogramador</button>
+<button type="button" class="btn btn-outline-success">buga - analizador</button>
+<button type="button" class="btn btn-outline-danger">cartago - seo</button>
+<button type="button" class="btn btn-outline-warning">santa marta - diseñador</button>
+<button type="button" class="btn btn-outline-info">bogota - redactor</button>
+<button type="button" class="btn btn-outline-dark">armenia - consultor</button>
+<button type="button" class="btn btn-outline-success">buga - analizador</button>
+<button type="button" class="btn btn-outline-danger">libano - seo</button>
+<button type="button" class="btn btn-outline-warning">santa marta - diseñador</button>
     </body>
     </html>
 @endsection
